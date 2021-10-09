@@ -2,13 +2,13 @@
   "extends": "@sourcegraph/tsconfig",
   "compilerOptions": {
     "target": "ES2019",
-    "module": "ESNext",
+    "module": "commonjs",
     "moduleResolution": "Node",
     "sourceMap": true,
     "declaration": true,
     "outDir": "dist",
     "rootDir": "src",
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
-  }
+    "allowSyntheticDefaultImports": true,
+  },
 }
