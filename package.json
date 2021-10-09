@@ -88,6 +88,9 @@
       "source-map-support/register"
     ]
   },
+  "dependencies": {
+    "sourcegraph": "^25.3.0"
+  },
   "devDependencies": {
     "@sourcegraph/eslint-config": "^0.25.1",
     "@sourcegraph/extension-api-stubs": "^1.5.3",
@@ -99,9 +102,8 @@
     "mkdirp": "^1.0.4",
     "mocha": "^9.0.2",
     "mock-require": "^3.0.3",
-    "parcel": "^2.0.0",
+    "parcel": "^2.0.0-rc.0",
     "source-map-support": "^0.5.19",
-    "sourcegraph": "^25.3.0",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
   }
