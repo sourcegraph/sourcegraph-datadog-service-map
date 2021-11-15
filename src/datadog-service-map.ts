@@ -145,7 +145,7 @@ export function activate(context: sourcegraph.ExtensionContext): void {
 
                 const servicesByEnv = await getServicesByEnv(requestConfig)
 
-                const servicesForSelectedEnv = servicesByEnv[env]
+                const servicesForSelectedEnv = servicesByEnv[env] ?? []
 
                 const serviceName = await inferServiceNameFromOperationName({
                     operationName,
