@@ -87,7 +87,7 @@ export const getServiceDependencies = memoizeAsync(
         serviceName: string
         env: string
     } & RequestConfig): Promise<ServiceDependencies> => {
-        const url = `${corsProxy}/https://api.datadoghq.com/api/v1/service_dependencies/${serviceName}?env=${env}&start=0`
+        const url = `${corsProxy}/https://api.datadoghq.com/api/v1/service_dependencies/${serviceName}?env=${env}`
 
         const response = await fetch(url, {
             headers: {
