@@ -2,7 +2,7 @@
 
 ## Overview
 
-![Datadog Services Map Screenshot](/images/datadog-services-map-sourcegraph-img.png)
+![Datadog Services Map Screenshot](https://storage.googleapis.com/sourcegraph-assets/extensions/datadog-services-map-sourcegraph-img.png)
 
 The Datadog Service Map Sourcegraph Extension brings the context of Datadog APM directly into your code, both on Sourcegraph and on your code host (via [the Sourcegraph Browser Extension](https://docs.sourcegraph.com/integration/browser_extension)). 
 
